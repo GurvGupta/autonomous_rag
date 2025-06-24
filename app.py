@@ -16,6 +16,8 @@ st.set_page_config(
 )
 st.title("Autonomous RAG")
 
+oracle_db = "https://docs.oracle.com/cd/E18283_01/server.112/e17120/ds_concepts002.htm#i1007709"
+
 def restart_assistant():
     logger.debug("Restarting Assistant...")
     st.session_state["auto_rag_assistant"] = None
