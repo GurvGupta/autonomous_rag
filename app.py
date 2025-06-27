@@ -14,7 +14,7 @@ st.set_page_config(
     page_title="Autonomous RAG",
     page_icon=":orange_heart:",
 )
-st.title("Autonomous RAG")
+
 
 oracle_db = "https://docs.oracle.com/cd/E18283_01/server.112/e17120/ds_concepts002.htm#i1007709"
 
